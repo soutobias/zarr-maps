@@ -35,7 +35,9 @@
     "dev": "tsup src/index.ts src/core/index.ts src/leaflet/index.ts src/ol/index.ts --format esm --dts --sourcemap --watch",
     "clean": "rm -rf dist",
     "docs": "typedoc",
-    "start:demo": "cd demo && npm run dev"
+    "start:demo": "cd demo && npm run dev",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "peerDependencies": {
     "leaflet": "*",
@@ -50,6 +52,7 @@
     "typedoc": "^0.28.14",
     "typedoc-plugin-markdown": "^4.9.0",
     "typescript": "^5.6.3",
+    "vitest": "^4.1.0",
     "zarrita": "^0.5.4"
   },
   "repository": {
