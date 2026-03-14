@@ -46,6 +46,7 @@
   "devDependencies": {
     "@types/leaflet": "^1.9.21",
     "@zarrita/ndarray": "^0.1.5",
+    "happy-dom": "^20.8.4",
     "ndarray": "^1.0.19",
     "proj4": "^2.19.10",
     "tsup": "^8.0.2",
